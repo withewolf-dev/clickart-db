@@ -4,7 +4,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-
+  //this is just a comment
   const config = new DocumentBuilder()
     .setTitle('clickart')
     .setDescription('The clickart API description')
